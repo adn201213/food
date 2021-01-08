@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".NewFoodActivity">
+    <EditText
+        android:id="@+id/newfoodactivity_et_foodname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="food name"
+        android:inputType="textImeMultiLine"/>
+    <EditText
+        android:id="@+id/newfoodactivity_et_fooddescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="food description"
+        android:inputType="textImeMultiLine"/>
+    <EditText
+        android:id="@+id/newfoodactivity_et_foodPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="food Price" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newfoodactivity_spiner"/>
+
+    <ImageView
+        android:id="@+id/activity_new_food_im_foodImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:background="@drawable/appetizertabula"/>
+
+
+<!--    <NumberPicker-->
+<!--        android:id="@+id/newfoodactivity_np_numberpicher"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">food</string>
+    <string name="eating_list">Food</string>
+    <string name="sweet_list">sweet</string>
+    <string name="appetizers_list">Appetizers</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food">kebbeh</string>
+    <string-array name="food_names">
+        <item >Choose Food Type</item>
+       <item >Food</item>
+        <item >Sweet</item>
+        <item >Appetizer</item>
+    </string-array>
+</resources>
